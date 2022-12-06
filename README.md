@@ -1,41 +1,15 @@
 # git-and-github-basic-repo
 ![python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
 ## Description
-This is a basic repository to start practicing Git &amp; Github.
+I was provided with the sales data, products data, location data and sales-team data of this company by Azubi Africa and I was required to analyze these datasets with power BI and to come up with a dashboard that captures key findings.
 
-## Assignment
-The following steps constitute your assignment :
-1. Clone this repository on your local machine; 
-1. Configure it as described in the `Setup` section;
-1. Create a file named exactly `firstfile.py` in the `src` folder;
-1. Commit your change with the message `Here Is My First Commit.`;
-1. Finally, push your first commit.
+Some of the data analytical process we carried out were:
+1. Data Cleaning
+2. Data Transformation
+3. Data Modelling
+4. Using DAX to create calculated columns and measures
+5. Data Visualization
 
-## Setup
-Install the required packages to be able to run the evaluation locally.
-
-You need to have [`Python 3`](https://www.python.org/) on your system (**a Python version lower than 3.10**). Then you can clone this repo and being at the repo's `root :: repository_name> ...`  follow the steps below:
-
-
-- Windows *(Python should be added to the Path variable of environment)*:
-        
-        python3 -m venv venv; venv\Scripts\activate; python -m pip install --upgrade pip; python -m pip install -r requirements.txt  
-
-- Linux & MacOs:
-        
-        python3 -m venv venv; source venv/bin/activate; python -m pip install --upgrade pip; python -m pip install -r requirements.txt
-
-The both long command-lines have a same structure, they pipe multiple commands using the symbol **;** but you may manually execute them one after another.
-
-1. **Create the Python's virtual environment** that isolates the required libraries of the project to avoid conflicts;
-2. **Activate the Python's virtual environment** so that the Python kernel & libraries will be those of the isolated environment;
-3. **Upgrade Pip, the installed libraries/packages manager** to have the up-to-date version that will work correctly;
-4. **Install the required libraries/packages** listed in the `requirements.txt` file so that it will be allow to import them into the python's scripts and notebooks without any issue.
-
-## Evaluation
-This evaluation will be automatically grade, so please follow the instructions carefully. 
-
-You can run this command bellow being at the root of the repository to be sure your solutions are the good ones before to push your solutions.
-```command
-python -m pytest -v
-```
+The Tools used were:
+1. Power Query Editor
+2. Power BI
